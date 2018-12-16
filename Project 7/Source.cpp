@@ -7,9 +7,9 @@ int  main()
 	int n;
 	int array[100];
 	int k, b = 0;
-	cout << "Enter array" << endl;
+	cout << "Enter array : " << endl;
 	cin >> n;
-	cout << "Enter numbers " << endl;
+	cout << "Enter numbers : " << endl;
 	for (int i = 0; i < n; i++)
 	{
 		cout << "Number " << b + 1 << endl;
@@ -19,7 +19,7 @@ int  main()
 	
 	do
 	{
-		cout << "K,what numbers need delite? " << endl;
+		cout << "K, what numbers need delite? " << endl;
 		cin >> k;
 		
 
